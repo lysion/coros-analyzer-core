@@ -33,4 +33,4 @@ release-time sensitive-data scan.
 
 The project is licensed under Apache-2.0; see [LICENSE](LICENSE).
 
-See [RELEASE_BLOCKERS.md](RELEASE_BLOCKERS.md) for known pre-release work.
+See [RELEASE_BLOCKERS.md](RELEASE_BLOCKERS.md) for release-scope notes.
