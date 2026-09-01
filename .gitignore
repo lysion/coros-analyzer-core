@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.DS_Store
+
+# Personal activity data, exports, credentials, and generated local artifacts.
+data/
+*.fit
+*.fit.gz
+*.gpx
+*.tcx
+.env*
+auth.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
