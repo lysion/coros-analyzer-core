@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "coros-analyzer-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "Public canonical COROS/FIT data models and validation utilities"
 readme = "README.md"
 license = "Apache-2.0"
