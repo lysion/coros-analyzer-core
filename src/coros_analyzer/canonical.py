@@ -1430,7 +1430,7 @@ def _read_csv(path: Path) -> list[dict[str, str]]:
 
 
 def resolve_generator_identity() -> GeneratorIdentity:
-    distribution_name = "coros-analyzer"
+    distribution_name = "coros-analyzer-core"
     try:
         distribution_version = importlib.metadata.version(distribution_name)
     except importlib.metadata.PackageNotFoundError as error:

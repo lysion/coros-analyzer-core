@@ -1,0 +1,2 @@
+label_id,sport_type,sport_name,start_timestamp,end_timestamp,duration_s,distance_m,avg_hr_bpm,elevation_gain_m,elevation_loss_m,training_load,calories_kcal
+fictional-run-20440101,1,Outdoor Run,2335219200,2335221000,1800,5000,152,35,35,42,360
