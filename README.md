@@ -33,15 +33,13 @@ downstream analysis, database, or visualization
 
 ## Quick Start
 
-Install from a source checkout:
+Install the published package:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e '.[test]'
+python -m pip install coros-analyzer-core
 ```
 
-Create a metric with explicit source, origin, unit, and availability:
+Create an explicit provenance-preserving metric value:
 
 ```python
 from coros_analyzer import (
@@ -62,10 +60,7 @@ assert distance_m.availability is DataAvailability.PRESENT
 print(distance_m.value, distance_m.unit)  # 5000.0 m
 ```
 
-### Reading an existing canonical snapshot
-
-If you already have a canonical snapshot produced by a compatible ingestion
-pipeline, validate its manifest before reading its rows:
+Validate and read an existing canonical snapshot:
 
 ```python
 from pathlib import Path
@@ -92,6 +87,16 @@ print(len(activities), len(daily_states))
 already prepare compatible local activity and daily-state inputs. It performs
 local canonical construction only; this package does not provide COROS sync,
 OAuth, a CLI, reports, or training analysis.
+
+## Development
+
+For source checkout and editable install:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e '.[test]'
+```
 
 ## Scope
 
